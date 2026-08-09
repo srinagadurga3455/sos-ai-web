@@ -1,0 +1,37 @@
+HOW TO ADD THE SOS SENT SCREENSHOT
+===================================
+
+STEP 1: Save the Screenshot
+----------------------------
+Take the first screenshot you shared (the one showing the full app screen with "SOS SENT" message)
+
+STEP 2: Rename the File
+------------------------
+Rename it to: sos-sent-hero.png
+
+STEP 3: Place in Public Folder
+-------------------------------
+Copy/Move the file to this location:
+    C:\Users\SRI NAGA DURGA K\sos-web\public\sos-sent-hero.png
+
+STEP 4: Refresh Browser
+------------------------
+The website should automatically update. If not:
+- Hard refresh: Ctrl + Shift + R (Windows)
+- Or close and reopen the browser tab at http://localhost:5173/
+
+WHAT YOU'LL SEE
+----------------
+✓ Before: Green checkmark placeholder
+✓ After: Your actual app screenshot in the phone frame
+
+TROUBLESHOOTING
+---------------
+If the image doesn't appear:
+1. Check the file name is exactly: sos-sent-hero.png
+2. Check it's in the public folder (not src/assets)
+3. Check the file format is PNG
+4. Try stopping the dev server (Ctrl+C) and running "npm run dev" again
+
+The public folder has been created for you at:
+C:\Users\SRI NAGA DURGA K\sos-web\public
