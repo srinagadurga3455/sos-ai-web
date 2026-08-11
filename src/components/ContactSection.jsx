@@ -9,7 +9,7 @@ export default function ContactSection() {
           <div className="animate-on-scroll">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Let's Talk</h2>
             <p className="text-xl text-text/70 mb-12 leading-relaxed">
-              Interested in collaborating, have questions about SOS-AI, or just want to chat about design and development? 
+              Interested in collaborating, have questions about <strong className="font-semibold text-coral">SOS-AI</strong>, or just want to chat about design and development? 
               I'd love to hear from you.
             </p>
           </div>

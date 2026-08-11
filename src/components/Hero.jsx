@@ -66,7 +66,7 @@ export default function Hero() {
             </h1>
 
             <div className="mb-8">
-              <div className="text-5xl md:text-6xl font-bold mb-3 text-text">SOS-AI</div>
+              <div className="text-5xl md:text-6xl font-bold mb-3 text-coral">SOS-AI</div>
               <p className="text-xl md:text-2xl text-text/70 max-w-2xl">
                 An AI voice assistant that acts the moment you can't.
               </p>
@@ -74,10 +74,10 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-x-12 gap-y-3 text-[15px] text-text/70 mb-10">
               <div>
-                <span className="font-semibold text-coral">Role:</span> Product Designer & Developer
+                <span className="font-semibold text-coral">Role:</span> App Developer, ML Engineer & AI Engineer
               </div>
               <div>
-                <span className="font-semibold text-coral">Tool:</span> Figma, React Native/Expo
+                <span className="font-semibold text-coral">Tools:</span> React Native/Expo, Figma, OpenAI, Azure, Twilio, Node.js
               </div>
               <div>
                 <span className="font-semibold text-coral">Platform:</span> Android

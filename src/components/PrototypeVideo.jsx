@@ -33,7 +33,7 @@ export default function PrototypeVideo() {
             Watch It In Action
           </h2>
           <p className="text-lg text-text/70 max-w-2xl mx-auto">
-            See how SOS-AI handles real emergency scenarios from trigger to response
+            See how <strong className="font-semibold text-coral">SOS-AI</strong> handles real emergency scenarios from trigger to response
           </p>
         </div>
 

@@ -24,7 +24,7 @@ export default function AboutSection() {
                 on building experiences that matter — especially when it comes to healthcare and emergency response.
               </p>
               <p>
-                With SOS-AI, I combined voice AI, real-time location services, and human-centered design to create 
+                With <strong className="font-semibold text-coral">SOS-AI</strong>, I combined voice AI, real-time location services, and human-centered design to create 
                 something that could genuinely save lives. Every decision was driven by one question: 
                 <strong className="font-semibold text-text"> "What would I need if I couldn't think clearly?"</strong>
               </p>
@@ -50,7 +50,7 @@ export default function AboutSection() {
             <div className="mt-12 p-6 bg-teal/5 rounded-xl border-l-4 border-teal">
               <div className="text-sm font-medium text-teal mb-2">Currently</div>
               <div className="text-text/80">
-                Working on expanding SOS-AI's medicine detection accuracy and adding multilingual voice support
+                Working on expanding <strong className="font-semibold text-coral">SOS-AI</strong>'s medicine detection accuracy and adding multilingual voice support
               </div>
             </div>
           </div>

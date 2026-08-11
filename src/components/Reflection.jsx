@@ -12,7 +12,7 @@ export default function Reflection() {
           <div className="animate-on-scroll">
             <h3 className="text-xl font-medium text-text/60 mb-8">Usability Study — Final Round</h3>
             <p className="text-base leading-relaxed text-text/80 mb-6">
-              SOS-AI hasn't shipped yet, so there is no formal public study with final numbers to report. 
+              <strong className="font-semibold text-coral">SOS-AI</strong> hasn't shipped yet, so there is no formal public study with final numbers to report. 
               What we have is a clear projection. The industry-average System Usability Scale (SUS) score 
               sits at <strong className="font-semibold text-coral">68</strong>; our internal builds are 
               targeting a projected <strong className="font-semibold text-coral">SUS of 72</strong> and 
@@ -25,7 +25,7 @@ export default function Reflection() {
           <div className="animate-on-scroll">
             <h3 className="text-xl font-medium text-text/60 mb-8">Final Thoughts</h3>
             <p className="text-base leading-relaxed text-text/80">
-              SOS-AI was built to remove friction at the exact moment friction is most dangerous — and 
+              <strong className="font-semibold text-coral">SOS-AI</strong> was built to remove friction at the exact moment friction is most dangerous — and 
               that goal held firm through every round of testing. Every core flow — SOS trigger, AI voice 
               triage, hospital discovery, medicine reminders — is fully functional in the current build. 
               <strong className="font-semibold text-coral"> Automated SMS/calling via Twilio is fully 

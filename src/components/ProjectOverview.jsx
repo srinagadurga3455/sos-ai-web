@@ -61,7 +61,7 @@ export default function ProjectOverview() {
           <div className="grid md:grid-cols-[280px_1fr] gap-8 animate-on-scroll">
             <div className="text-xl md:text-2xl text-[#6B6B6B]">Solution</div>
             <p className="text-[17px] leading-[1.6] text-text/90">
-              I designed and built SOS-AI, an app where 
+              I designed and built <strong className="font-semibold text-coral">SOS-AI</strong>, an app where 
               <span className="font-semibold text-text"> a single tap starts an AI-guided emergency 
               flow</span> — acquiring location, alerting emergency contacts, and walking the user 
               through what to do next <span className="font-semibold text-text">entirely by voice</span>.
