@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
+
+  .animate-on-scroll {
+    animation: slideUp 0.8s ease-out forwards;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px 32px;
+    padding: 32px 0;
+  }
+
+  @media (min-width: 768px) {
+    .row {
+      grid-template-columns: 240px 1fr;
+      gap: 32px;
+    }
+  }
+
+  .phone-frame {
+    @apply bg-white rounded-[2rem] p-3 shadow-2xl shadow-text/5;
+  }
+
+  .phone-frame-inner {
+    @apply relative overflow-hidden rounded-[1.625rem] bg-text/5;
+  }
+
+  @media (min-width: 768px) {
+    .phone-frame {
+      @apply rounded-[2.5rem] p-4;
+    }
+
+    .phone-frame-inner {
+      @apply rounded-[2rem];
+    }
+  }
+}
+
+@layer components {
+  .section-spacing {
+    @apply py-24 md:py-32;
+  }
+}
